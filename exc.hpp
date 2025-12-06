@@ -2,7 +2,6 @@
 #include <Windows.h>
 
 namespace Offsets {
-
 	inline constexpr uintptr_t EnableLoadModule = 0x67333c8;
 
 	inline constexpr uintptr_t FakeDataModelPointer = 0x78a24c8;
@@ -11,6 +10,7 @@ namespace Offsets {
 	inline constexpr uintptr_t Children = 0x70;
 	inline constexpr uintptr_t ChildrenEnd = 0x8;
 	inline constexpr uintptr_t Name = 0xB0;
+
 	inline constexpr uintptr_t Value = 0xD0;
 
 	inline constexpr uintptr_t ClassDescriptor = 0x18;
