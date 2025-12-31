@@ -1,21 +1,72 @@
 #pragma once
 #include <Windows.h>
 
-namespace Offsets {
-	inline constexpr uintptr_t EnableLoadModule = 0x679d8f8;
-	
-	inline constexpr uintptr_t FakeDataModelPointer = 0x7d03628;
-	inline constexpr uintptr_t FakeDataModelToDataModel = 0x1c0;
-	
-	inline constexpr uintptr_t Children = 0x70;
-	inline constexpr uintptr_t ChildrenEnd = 0x8;
-	inline constexpr uintptr_t Name = 0xb0;
-	
-	inline constexpr uintptr_t Value = 0xd0;
-	
-	inline constexpr uintptr_t ClassDescriptor = 0x18;
-	inline constexpr uintptr_t ClassDescriptorToClassName = 0x8;
+namespace offsets {
+    inline constexpr uintptr_t This = 0x8;
+    inline constexpr uintptr_t Name = 0xb0;
+    inline constexpr uintptr_t Parent = 0x68;
 
-	inline constexpr uintptr_t LocalScriptByteCode = 0x1a8;
-	inline constexpr uintptr_t ModuleScriptByteCode = 0x150;
+    inline constexpr uintptr_t Children = 0x70;
+    inline constexpr uintptr_t ChildrenEnd = 0x8;
+
+    inline constexpr uintptr_t DisplayName = 0x130;
+
+    inline constexpr uintptr_t ClassDescriptor = 0x18;
+    inline constexpr uintptr_t ClassDescriptorToClassName = 0x8;
+
+    inline constexpr uintptr_t StringLength = 0x10;
+
+    inline constexpr uintptr_t LocalPlayer = 0x130;
+    inline constexpr uintptr_t ModelInstance = 0x360;
+
+    inline constexpr uintptr_t WalkSpeed = 0x1d4;
+    inline constexpr uintptr_t WalkSpeedCheck = 0x3c0;
+    inline constexpr uintptr_t JumpPower = 0x1b0;
+
+    inline constexpr uintptr_t Team = 0x270;
+
+    inline constexpr uintptr_t Health = 0x194;
+    inline constexpr uintptr_t MaxHealth = 0x1b4;
+
+    inline constexpr uintptr_t MoveDirection = 0x360;
+
+    inline constexpr uintptr_t Position = 0x12c;
+    inline constexpr uintptr_t CFrame = 0xc0;
+    inline constexpr uintptr_t Primitive = 0x148;
+    inline constexpr uintptr_t PartSize = 0x1b0;
+
+    inline constexpr uintptr_t RootPartR15 = 0x608;
+    inline constexpr uintptr_t RootPartR6 = 0x4A8;
+
+    inline constexpr uintptr_t Gravity = 0x1d0;
+    inline constexpr uintptr_t GravityInfo = 0x3c8;
+
+    inline constexpr uintptr_t FakeDataModel = 0x7d03628;
+    inline constexpr uintptr_t FakeDataModelToDataModel = 0x1c0;
+
+    inline constexpr uintptr_t ServerIP = 0x5e8;
+
+    inline constexpr uintptr_t VisualEnginePointer = 0x7a69470;
+    inline constexpr uintptr_t ViewMatrix = 0x4b0;
+
+    inline constexpr uintptr_t CurrentCamera = 0x450;
+    inline constexpr uintptr_t CameraPos = 0x11c;
+    inline constexpr uintptr_t FOV = 0x160;
+    inline constexpr uintptr_t CameraSubject = 0xe8;
+    inline constexpr uintptr_t CameraType = 0x158;
+    inline constexpr uintptr_t CameraRotation = 0xf8;
+
+    inline constexpr uintptr_t name = Name;
+    inline constexpr uintptr_t parent = Parent;
+    inline constexpr uintptr_t children = Children;
+    inline constexpr uintptr_t children_end = ChildrenEnd;
+
+    inline constexpr uintptr_t localplayer = LocalPlayer;
+    inline constexpr uintptr_t walkspeed = WalkSpeed;
+    inline constexpr uintptr_t walkspeedcheck = WalkSpeedCheck;
+    inline constexpr uintptr_t jumppower = JumpPower;
+
+    inline constexpr uintptr_t fakedatamodel = FakeDataModel;
+    inline constexpr uintptr_t fakedm_to_dm = FakeDataModelToDataModel;
 }
+
