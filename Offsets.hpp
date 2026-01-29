@@ -47,7 +47,7 @@ namespace offsets {
     inline constexpr uintptr_t ServerIP = 0x5e0;
 
     inline constexpr uintptr_t VisualEnginePointer = 0x7a681f0;
-    inline constexpr uintptr_t ViewMatrix = 0x4B0;
+    inline constexpr uintptr_t ViewMatrix = 0x120;
 
     inline constexpr uintptr_t CurrentCamera = 0x450;
     inline constexpr uintptr_t CameraPos = 0x11c;
