@@ -3,7 +3,7 @@
 
 namespace offsets {
     inline constexpr uintptr_t This = 0x8;
-    inline constexpr uintptr_t Name = 0xb0;
+    inline constexpr uintptr_t Name = 0xB0;
     inline constexpr uintptr_t Parent = 0x68;
 
     inline constexpr uintptr_t Children = 0x70;
@@ -17,16 +17,16 @@ namespace offsets {
     inline constexpr uintptr_t StringLength = 0x10;
 
     inline constexpr uintptr_t LocalPlayer = 0x130;
-    inline constexpr uintptr_t ModelInstance = 0x370;
+    inline constexpr uintptr_t ModelInstance = 0x360;
 
-    inline constexpr uintptr_t WalkSpeed = 0x1d4;
-    inline constexpr uintptr_t WalkSpeedCheck = 0x3c0;
-    inline constexpr uintptr_t JumpPower = 0x1b0;
+    inline constexpr uintptr_t WalkSpeed = 0x1D4;
+    inline constexpr uintptr_t WalkSpeedCheck = 0x3C0;
+    inline constexpr uintptr_t JumpPower = 0x1B0;
 
-    inline constexpr uintptr_t Team = 0x280;
+    inline constexpr uintptr_t Team = 0x270;
 
     inline constexpr uintptr_t Health = 0x194;
-    inline constexpr uintptr_t MaxHealth = 0x1b4;
+    inline constexpr uintptr_t MaxHealth = 0x1B4;
 
     inline constexpr uintptr_t MoveDirection = 0x360;
 
@@ -38,18 +38,18 @@ namespace offsets {
     inline constexpr uintptr_t RootPartR15 = 0x608;
     inline constexpr uintptr_t RootPartR6 = 0x4A8;
 
-    inline constexpr uintptr_t Gravity = 0x1d0;
-    inline constexpr uintptr_t GravityInfo = 0x3d8;
+    inline constexpr uintptr_t Gravity = 0x1D0;
+    inline constexpr uintptr_t GravityInfo = 0x3C8;
 
-    inline constexpr uintptr_t FakeDataModel = 0x7fa1988;
+    inline constexpr uintptr_t FakeDataModel = 0x800f778;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1c0;
 
     inline constexpr uintptr_t ServerIP = 0x5e0;
 
-    inline constexpr uintptr_t VisualEnginePointer = 0x7a7f950;
-    inline constexpr uintptr_t ViewMatrix = 0x4b0;
+    inline constexpr uintptr_t VisualEnginePointer = 0x7a681f0;
+    inline constexpr uintptr_t ViewMatrix = 0x4B0;
 
-    inline constexpr uintptr_t CurrentCamera = 0x460;
+    inline constexpr uintptr_t CurrentCamera = 0x450;
     inline constexpr uintptr_t CameraPos = 0x11c;
     inline constexpr uintptr_t FOV = 0x160;
     inline constexpr uintptr_t CameraSubject = 0xe8;
