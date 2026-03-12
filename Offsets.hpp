@@ -17,13 +17,13 @@ namespace offsets {
     inline constexpr uintptr_t StringLength = 0x10;
 
     inline constexpr uintptr_t LocalPlayer = 0x130;
-    inline constexpr uintptr_t ModelInstance = 0x380;
+    inline constexpr uintptr_t ModelInstance = 0x398;
 
     inline constexpr uintptr_t WalkSpeed = 0x1d4;
-    inline constexpr uintptr_t WalkSpeedCheck = 0x3b8;
+    inline constexpr uintptr_t WalkSpeedCheck = 0x3bc;
     inline constexpr uintptr_t JumpPower = 0x1b0;
 
-    inline constexpr uintptr_t Team = 0x290;
+    inline constexpr uintptr_t Team = 0x2a0;
 
     inline constexpr uintptr_t Health = 0x194;
     inline constexpr uintptr_t MaxHealth = 0x1b4;
@@ -41,15 +41,15 @@ namespace offsets {
     inline constexpr uintptr_t Gravity = 0x1d0;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
 
-    inline constexpr uintptr_t FakeDataModel = 0x7f6c228;
+    inline constexpr uintptr_t FakeDataModel = 0x81c2c38;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1c0;
 
     inline constexpr uintptr_t ServerIP = 0x5e8;
 
-    inline constexpr uintptr_t VisualEnginePointer = 0x7b1f068;
+    inline constexpr uintptr_t VisualEnginePointer = 0x7d78148;
     inline constexpr uintptr_t ViewMatrix = 0x140;
 
-    inline constexpr uintptr_t CurrentCamera = 0x460;
+    inline constexpr uintptr_t CurrentCamera = 0x468;
     inline constexpr uintptr_t CameraPos = 0x11c;
     inline constexpr uintptr_t FOV = 0x160;
     inline constexpr uintptr_t CameraSubject = 0xe8;
