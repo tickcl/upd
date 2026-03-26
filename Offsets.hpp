@@ -4,9 +4,9 @@
 namespace offsets {
     inline constexpr uintptr_t This = 0x8;
     inline constexpr uintptr_t Name = 0xb0;
-    inline constexpr uintptr_t Parent = 0x68;
+    inline constexpr uintptr_t Parent = 0x70;
 
-    inline constexpr uintptr_t Children = 0x70;
+    inline constexpr uintptr_t Children = 0x78;
     inline constexpr uintptr_t ChildrenEnd = 0x8;
 
     inline constexpr uintptr_t DisplayName = 0x130;
@@ -38,18 +38,18 @@ namespace offsets {
     inline constexpr uintptr_t RootPartR15 = 0x608;
     inline constexpr uintptr_t RootPartR6 = 0x4A8;
 
-    inline constexpr uintptr_t Gravity = 0x1d0;
+    inline constexpr uintptr_t Gravity = 0x1d8;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
 
-    inline constexpr uintptr_t FakeDataModel = 0x81d3ea8;
+    inline constexpr uintptr_t FakeDataModel = 0x795a0d8;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1c0;
 
     inline constexpr uintptr_t ServerIP = 0x5e8;
 
-    inline constexpr uintptr_t VisualEnginePointer = 0x7d891c0;
-    inline constexpr uintptr_t ViewMatrix = 0x140;
+    inline constexpr uintptr_t VisualEnginePointer = 0x7510a58;
+    inline constexpr uintptr_t ViewMatrix = 0x130;
 
-    inline constexpr uintptr_t CurrentCamera = 0x468;
+    inline constexpr uintptr_t CurrentCamera = 0x488;
     inline constexpr uintptr_t CameraPos = 0x11c;
     inline constexpr uintptr_t FOV = 0x160;
     inline constexpr uintptr_t CameraSubject = 0xe8;
