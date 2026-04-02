@@ -28,10 +28,10 @@ namespace Offsets {
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
     inline constexpr uintptr_t Gravity = 0x1D8;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x795A0D8;
+    inline constexpr uintptr_t FakeDataModel = 0x834A988;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0;
-    inline constexpr uintptr_t ServerIP = 0x5E8;
-    inline constexpr uintptr_t VisualEnginePointer = 0x7510A58;
+    inline constexpr uintptr_t ServerIP = 0x5E0;
+    inline constexpr uintptr_t VisualEnginePointer = 0x7EF81D8;
     inline constexpr uintptr_t ViewMatrix = 0x130;
     inline constexpr uintptr_t CurrentCamera = 0x488;
     inline constexpr uintptr_t CameraPos = 0x11C;
@@ -107,7 +107,7 @@ namespace Offsets {
         inline constexpr uintptr_t SkyboxRt = 0x1D0;
         inline constexpr uintptr_t SkyboxUp = 0x200;
         inline constexpr uintptr_t StarCount = 0x260;
-        inline constexpr uintptr_t SunAngularSize = 0x104;
+        inline constexpr uintptr_t SunAngularSize = 0x254;
         inline constexpr uintptr_t SunTextureId = 0x230;
     }
 
@@ -149,27 +149,27 @@ namespace Offsets {
     namespace DataModel {
         inline constexpr uintptr_t CreatorId = 0x188;
         inline constexpr uintptr_t GameId = 0x190;
-        inline constexpr uintptr_t GameLoaded = 0x600;
+        inline constexpr uintptr_t GameLoaded = 0x5F8;
         inline constexpr uintptr_t JobId = 0x138;
         inline constexpr uintptr_t PlaceId = 0x198;
         inline constexpr uintptr_t PlaceVersion = 0x1B4;
         inline constexpr uintptr_t PrimitiveCount = 0x440;
         inline constexpr uintptr_t ScriptContext = 0x3F0;
-        inline constexpr uintptr_t ServerIP = 0x5E8;
+        inline constexpr uintptr_t ServerIP = 0x5E0;
         inline constexpr uintptr_t Workspace = 0x178;
     }
 
     namespace BasePart {
         inline constexpr uintptr_t AssemblyAngularVelocity = 0xFC;
         inline constexpr uintptr_t AssemblyLinearVelocity = 0xF0;
-        inline constexpr uintptr_t Color3 = 0x194;
+        inline constexpr uintptr_t Color3 = 0x4A;
         inline constexpr uintptr_t Primitive = 0x148;
         inline constexpr uintptr_t Shape = 0x1B1;
         inline constexpr uintptr_t Transparency = 0xF0;
     }
 
     namespace Primitive {
-        inline constexpr uintptr_t Material = 0x230;
+        inline constexpr uintptr_t Material = 0x0;
         inline constexpr uintptr_t Position = 0xE4;
         inline constexpr uintptr_t Flags = 0x1AE;
         inline constexpr uintptr_t Owner = 0x1F8;
