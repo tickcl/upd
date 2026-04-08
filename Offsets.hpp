@@ -28,10 +28,10 @@ namespace Offsets {
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
     inline constexpr uintptr_t Gravity = 0x1D8;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x834A988;
+    inline constexpr uintptr_t FakeDataModel = 0x7A1F238;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0;
     inline constexpr uintptr_t ServerIP = 0x5E0;
-    inline constexpr uintptr_t VisualEnginePointer = 0x7EF81D8;
+    inline constexpr uintptr_t VisualEnginePointer = 0x75CDF30;
     inline constexpr uintptr_t ViewMatrix = 0x130;
     inline constexpr uintptr_t CurrentCamera = 0x488;
     inline constexpr uintptr_t CameraPos = 0x11C;
@@ -162,7 +162,7 @@ namespace Offsets {
     namespace BasePart {
         inline constexpr uintptr_t AssemblyAngularVelocity = 0xFC;
         inline constexpr uintptr_t AssemblyLinearVelocity = 0xF0;
-        inline constexpr uintptr_t Color3 = 0x4A;
+        inline constexpr uintptr_t Color3 = 0x194;
         inline constexpr uintptr_t Primitive = 0x148;
         inline constexpr uintptr_t Shape = 0x1B1;
         inline constexpr uintptr_t Transparency = 0xF0;
