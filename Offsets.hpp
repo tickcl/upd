@@ -28,12 +28,12 @@ namespace Offsets {
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
     inline constexpr uintptr_t Gravity = 0x1D8;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x7A1D388;
+    inline constexpr uintptr_t FakeDataModel = 0x7A8F908;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0;
     inline constexpr uintptr_t ServerIP = 0x5E0;
-    inline constexpr uintptr_t VisualEnginePointer = 0x75CC058;
+    inline constexpr uintptr_t VisualEnginePointer = 0x763D3D0;
     inline constexpr uintptr_t ViewMatrix = 0x130;
-    inline constexpr uintptr_t CurrentCamera = 0x488;
+    inline constexpr uintptr_t CurrentCamera = 0x490;
     inline constexpr uintptr_t CameraPos = 0x11C;
     inline constexpr uintptr_t FOV = 0x160;
     inline constexpr uintptr_t CameraSubject = 0xE8;
@@ -53,13 +53,13 @@ namespace Offsets {
     }
 
     namespace Tool {
-        inline constexpr uintptr_t CanBeDropped = 0x4C0;
-        inline constexpr uintptr_t Enabled = 0x4C1;
-        inline constexpr uintptr_t Grip = 0x4B4;
-        inline constexpr uintptr_t ManualActivationOnly = 0x4C2;
-        inline constexpr uintptr_t RequiresHandle = 0x4C3;
-        inline constexpr uintptr_t TextureId = 0x368;
-        inline constexpr uintptr_t Tooltip = 0x470;
+        inline constexpr uintptr_t CanBeDropped = 0x4C8;
+        inline constexpr uintptr_t Enabled = 0x4C9;
+        inline constexpr uintptr_t Grip = 0x4BC;
+        inline constexpr uintptr_t ManualActivationOnly = 0x4CA;
+        inline constexpr uintptr_t RequiresHandle = 0x4CB;
+        inline constexpr uintptr_t TextureId = 0x370;
+        inline constexpr uintptr_t Tooltip = 0x478;
     }
 
     namespace Atmosphere {
@@ -162,7 +162,7 @@ namespace Offsets {
     namespace BasePart {
         inline constexpr uintptr_t AssemblyAngularVelocity = 0xFC;
         inline constexpr uintptr_t AssemblyLinearVelocity = 0xF0;
-        inline constexpr uintptr_t Color3 = 0x49;
+        inline constexpr uintptr_t Color3 = 0x194;
         inline constexpr uintptr_t Primitive = 0x148;
         inline constexpr uintptr_t Shape = 0x1B1;
         inline constexpr uintptr_t Transparency = 0xF0;
