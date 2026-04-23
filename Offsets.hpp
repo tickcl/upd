@@ -28,10 +28,10 @@ namespace Offsets {
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
     inline constexpr uintptr_t Gravity = 0x1D8;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x7A8F908;
-    inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0;
+    inline constexpr uintptr_t FakeDataModel = 0x7B990F8;
+    inline constexpr uintptr_t FakeDataModelToDataModel = 0x1D0;
     inline constexpr uintptr_t ServerIP = 0x5E0;
-    inline constexpr uintptr_t VisualEnginePointer = 0x763D3D0;
+    inline constexpr uintptr_t VisualEnginePointer = 0x7746018;
     inline constexpr uintptr_t ViewMatrix = 0x130;
     inline constexpr uintptr_t CurrentCamera = 0x490;
     inline constexpr uintptr_t CameraPos = 0x11C;
