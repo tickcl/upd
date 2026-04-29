@@ -12,8 +12,8 @@ namespace Offsets {
     inline constexpr uintptr_t StringLength = 0x10;
     inline constexpr uintptr_t LocalPlayer = 0x130;
     inline constexpr uintptr_t ModelInstance = 0x398;
-    inline constexpr uintptr_t WalkSpeed = 0x1D4;
-    inline constexpr uintptr_t WalkSpeedCheck = 0x3BC;
+    inline constexpr uintptr_t WalkSpeed = 0x1DC;
+    inline constexpr uintptr_t WalkSpeedCheck = 0x3C4;
     inline constexpr uintptr_t JumpPower = 0x1B0;
     inline constexpr uintptr_t Team = 0x2A0;
     inline constexpr uintptr_t Health = 0x194;
@@ -26,12 +26,12 @@ namespace Offsets {
     inline constexpr uintptr_t PartSize = 0x1B0;
     inline constexpr uintptr_t RootPartR15 = 0x620;
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
-    inline constexpr uintptr_t Gravity = 0x1D8;
+    inline constexpr uintptr_t Gravity = 0x210;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x7B991D8;
+    inline constexpr uintptr_t FakeDataModel = 0x7C1A148;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1D0;
     inline constexpr uintptr_t ServerIP = 0x5E0;
-    inline constexpr uintptr_t VisualEnginePointer = 0x7746260;
+    inline constexpr uintptr_t VisualEnginePointer = 0x77C6670;
     inline constexpr uintptr_t ViewMatrix = 0x130;
     inline constexpr uintptr_t CurrentCamera = 0x490;
     inline constexpr uintptr_t CameraPos = 0x11C;
@@ -112,12 +112,12 @@ namespace Offsets {
     }
 
     namespace BlurEffect {
-        inline constexpr uintptr_t Enabled = 0xA7;
+        inline constexpr uintptr_t Enabled = 0xC8;
         inline constexpr uintptr_t Size = 0xD0;
     }
 
     namespace SunRaysEffect {
-        inline constexpr uintptr_t Enabled = 0xA7;
+        inline constexpr uintptr_t Enabled = 0xC8;
         inline constexpr uintptr_t Intensity = 0xD0;
         inline constexpr uintptr_t Spread = 0xD4;
     }
