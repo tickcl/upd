@@ -11,29 +11,29 @@ namespace Offsets {
     inline constexpr uintptr_t ClassDescriptorToClassName = 0x8;
     inline constexpr uintptr_t StringLength = 0x10;
     inline constexpr uintptr_t LocalPlayer = 0x138;
-    inline constexpr uintptr_t ModelInstance = 0x398;
+    inline constexpr uintptr_t ModelInstance = 0x3A8;
     inline constexpr uintptr_t WalkSpeed = 0x1DC;
     inline constexpr uintptr_t WalkSpeedCheck = 0x3C4;
     inline constexpr uintptr_t JumpPower = 0x1B0;
-    inline constexpr uintptr_t Team = 0x2A0;
+    inline constexpr uintptr_t Team = 0x2B0;
     inline constexpr uintptr_t Health = 0x194;
     inline constexpr uintptr_t MaxHealth = 0x1B4;
     inline constexpr uintptr_t MoveDirection = 0x158;
-    inline constexpr uintptr_t Position = 0xE4;
-    inline constexpr uintptr_t Velocity = 0xF0;
-    inline constexpr uintptr_t CFrame = 0xC0;
+    inline constexpr uintptr_t Position = 0xEC;
+    inline constexpr uintptr_t Velocity = 0xF8;
+    inline constexpr uintptr_t CFrame = 0xC8;
     inline constexpr uintptr_t Primitive = 0x148;
-    inline constexpr uintptr_t PartSize = 0x1B0;
+    inline constexpr uintptr_t PartSize = 0x1B8;
     inline constexpr uintptr_t RootPartR15 = 0x620;
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
     inline constexpr uintptr_t Gravity = 0x210;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x749CBD8;
+    inline constexpr uintptr_t FakeDataModel = 0x74F8758;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1D0;
-    inline constexpr uintptr_t ServerIP = 0x608;
-    inline constexpr uintptr_t VisualEnginePointer = 0x7B79A08;
+    inline constexpr uintptr_t ServerIP = 0x620;
+    inline constexpr uintptr_t VisualEnginePointer = 0x7BD71F8;
     inline constexpr uintptr_t ViewMatrix = 0x140;
-    inline constexpr uintptr_t CurrentCamera = 0x490;
+    inline constexpr uintptr_t CurrentCamera = 0x4B0;
     inline constexpr uintptr_t CameraPos = 0x11C;
     inline constexpr uintptr_t FOV = 0x160;
     inline constexpr uintptr_t CameraSubject = 0xE8;
@@ -149,19 +149,19 @@ namespace Offsets {
     namespace DataModel {
         inline constexpr uintptr_t CreatorId = 0x190;
         inline constexpr uintptr_t GameId = 0x198;
-        inline constexpr uintptr_t GameLoaded = 0x620;
+        inline constexpr uintptr_t GameLoaded = 0x638;
         inline constexpr uintptr_t JobId = 0x138;
         inline constexpr uintptr_t PlaceId = 0x1A0;
         inline constexpr uintptr_t PlaceVersion = 0x1BC;
-        inline constexpr uintptr_t PrimitiveCount = 0x468;
-        inline constexpr uintptr_t ScriptContext = 0x400;
-        inline constexpr uintptr_t ServerIP = 0x608;
+        inline constexpr uintptr_t PrimitiveCount = 0x480;
+        inline constexpr uintptr_t ScriptContext = 0x430;
+        inline constexpr uintptr_t ServerIP = 0x620;
         inline constexpr uintptr_t Workspace = 0x178;
     }
 
     namespace BasePart {
-        inline constexpr uintptr_t AssemblyAngularVelocity = 0xFC;
-        inline constexpr uintptr_t AssemblyLinearVelocity = 0xF0;
+        inline constexpr uintptr_t AssemblyAngularVelocity = 0x104;
+        inline constexpr uintptr_t AssemblyLinearVelocity = 0xF8;
         inline constexpr uintptr_t Color3 = 0x194;
         inline constexpr uintptr_t Primitive = 0x148;
         inline constexpr uintptr_t Shape = 0x1B1;
@@ -170,11 +170,11 @@ namespace Offsets {
 
     namespace Primitive {
         inline constexpr uintptr_t Material = 0x0;
-        inline constexpr uintptr_t Position = 0xE4;
-        inline constexpr uintptr_t Flags = 0x1AE;
-        inline constexpr uintptr_t Owner = 0x1F8;
-        inline constexpr uintptr_t Rotation = 0xC0;
-        inline constexpr uintptr_t Size = 0x1B0;
+        inline constexpr uintptr_t Position = 0xEC;
+        inline constexpr uintptr_t Flags = 0x1B6;
+        inline constexpr uintptr_t Owner = 0x200;
+        inline constexpr uintptr_t Rotation = 0xC8;
+        inline constexpr uintptr_t Size = 0x1B8;
         inline constexpr uintptr_t Validate = 0x6;
     }
 
