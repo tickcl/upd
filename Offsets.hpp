@@ -28,10 +28,10 @@ namespace Offsets {
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
     inline constexpr uintptr_t Gravity = 0x210;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x74F6758;
+    inline constexpr uintptr_t FakeDataModel = 0x7868A68;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1D0;
     inline constexpr uintptr_t ServerIP = 0x620;
-    inline constexpr uintptr_t VisualEnginePointer = 0x7BD51F8;
+    inline constexpr uintptr_t VisualEnginePointer = 0x7F52CF0;
     inline constexpr uintptr_t ViewMatrix = 0x140;
     inline constexpr uintptr_t CurrentCamera = 0x4B0;
     inline constexpr uintptr_t CameraPos = 0x11C;
@@ -154,7 +154,7 @@ namespace Offsets {
         inline constexpr uintptr_t PlaceId = 0x1A0;
         inline constexpr uintptr_t PlaceVersion = 0x1BC;
         inline constexpr uintptr_t PrimitiveCount = 0x480;
-        inline constexpr uintptr_t ScriptContext = 0x430;
+        inline constexpr uintptr_t ScriptContext = 0x440;
         inline constexpr uintptr_t ServerIP = 0x620;
         inline constexpr uintptr_t Workspace = 0x178;
     }
