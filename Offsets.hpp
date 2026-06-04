@@ -11,7 +11,7 @@ namespace Offsets {
     inline constexpr uintptr_t ClassDescriptorToClassName = 0x8;
     inline constexpr uintptr_t StringLength = 0x10;
     inline constexpr uintptr_t LocalPlayer = 0x138;
-    inline constexpr uintptr_t ModelInstance = 0x3A8;
+    inline constexpr uintptr_t ModelInstance = 0x280;
     inline constexpr uintptr_t WalkSpeed = 0x1DC;
     inline constexpr uintptr_t WalkSpeedCheck = 0x3C4;
     inline constexpr uintptr_t JumpPower = 0x1B0;
@@ -28,10 +28,10 @@ namespace Offsets {
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
     inline constexpr uintptr_t Gravity = 0x210;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x78CF1D8;
+    inline constexpr uintptr_t FakeDataModel = 0x78FF228;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1D0;
     inline constexpr uintptr_t ServerIP = 0x620;
-    inline constexpr uintptr_t VisualEnginePointer = 0x7FED100;
+    inline constexpr uintptr_t VisualEnginePointer = 0x801DFB0;
     inline constexpr uintptr_t ViewMatrix = 0x150;
     inline constexpr uintptr_t CurrentCamera = 0x4B0;
     inline constexpr uintptr_t CameraPos = 0x11C;
@@ -54,7 +54,7 @@ namespace Offsets {
 
     namespace Tool {
         inline constexpr uintptr_t CanBeDropped = 0x4C8;
-        inline constexpr uintptr_t Enabled = 0x1B5;
+        inline constexpr uintptr_t Enabled = 0x4C9;
         inline constexpr uintptr_t Grip = 0x4BC;
         inline constexpr uintptr_t ManualActivationOnly = 0x4CA;
         inline constexpr uintptr_t RequiresHandle = 0x4CB;
