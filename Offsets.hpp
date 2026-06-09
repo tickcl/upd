@@ -6,16 +6,16 @@ namespace Offsets {
     inline constexpr uintptr_t Parent = 0x70;
     inline constexpr uintptr_t Children = 0x78;
     inline constexpr uintptr_t ChildrenEnd = 0x8;
-    inline constexpr uintptr_t DisplayName = 0x130;
+    inline constexpr uintptr_t DisplayName = 0x150;
     inline constexpr uintptr_t ClassDescriptor = 0x18;
     inline constexpr uintptr_t ClassDescriptorToClassName = 0x8;
     inline constexpr uintptr_t StringLength = 0x10;
     inline constexpr uintptr_t LocalPlayer = 0x138;
-    inline constexpr uintptr_t ModelInstance = 0x280;
+    inline constexpr uintptr_t ModelInstance = 0x3C8;
     inline constexpr uintptr_t WalkSpeed = 0x1DC;
     inline constexpr uintptr_t WalkSpeedCheck = 0x3C4;
     inline constexpr uintptr_t JumpPower = 0x1B0;
-    inline constexpr uintptr_t Team = 0x2B0;
+    inline constexpr uintptr_t Team = 0x2D0;
     inline constexpr uintptr_t Health = 0x194;
     inline constexpr uintptr_t MaxHealth = 0x1B4;
     inline constexpr uintptr_t MoveDirection = 0x158;
@@ -28,10 +28,10 @@ namespace Offsets {
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
     inline constexpr uintptr_t Gravity = 0x210;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x78FF228;
-    inline constexpr uintptr_t FakeDataModelToDataModel = 0x1D0;
-    inline constexpr uintptr_t ServerIP = 0x620;
-    inline constexpr uintptr_t VisualEnginePointer = 0x801DFB0;
+    inline constexpr uintptr_t FakeDataModel = 0x7A39AD8;
+    inline constexpr uintptr_t FakeDataModelToDataModel = 0x1D8;
+    inline constexpr uintptr_t ServerIP = 0x658;
+    inline constexpr uintptr_t VisualEnginePointer = 0x8158B80;
     inline constexpr uintptr_t ViewMatrix = 0x150;
     inline constexpr uintptr_t CurrentCamera = 0x4B0;
     inline constexpr uintptr_t CameraPos = 0x11C;
@@ -45,11 +45,11 @@ namespace Offsets {
     }
 
     namespace VehicleSeat {
-        inline constexpr uintptr_t MaxSpeed = 0x238;
-        inline constexpr uintptr_t SteerFloat = 0x240;
-        inline constexpr uintptr_t ThrottleFloat = 0x248;
-        inline constexpr uintptr_t Torque = 0x24C;
-        inline constexpr uintptr_t TurnSpeed = 0x250;
+        inline constexpr uintptr_t MaxSpeed = 0x230;
+        inline constexpr uintptr_t SteerFloat = 0x238;
+        inline constexpr uintptr_t ThrottleFloat = 0x240;
+        inline constexpr uintptr_t Torque = 0x244;
+        inline constexpr uintptr_t TurnSpeed = 0x248;
     }
 
     namespace Tool {
@@ -149,13 +149,13 @@ namespace Offsets {
     namespace DataModel {
         inline constexpr uintptr_t CreatorId = 0x190;
         inline constexpr uintptr_t GameId = 0x198;
-        inline constexpr uintptr_t GameLoaded = 0x638;
+        inline constexpr uintptr_t GameLoaded = 0x670;
         inline constexpr uintptr_t JobId = 0x138;
         inline constexpr uintptr_t PlaceId = 0x1A0;
         inline constexpr uintptr_t PlaceVersion = 0x1BC;
-        inline constexpr uintptr_t PrimitiveCount = 0x480;
+        inline constexpr uintptr_t PrimitiveCount = 0x4A0;
         inline constexpr uintptr_t ScriptContext = 0x440;
-        inline constexpr uintptr_t ServerIP = 0x620;
+        inline constexpr uintptr_t ServerIP = 0x658;
         inline constexpr uintptr_t Workspace = 0x178;
     }
 
