@@ -10,8 +10,8 @@ namespace Offsets {
     inline constexpr uintptr_t ClassDescriptor = 0x18;
     inline constexpr uintptr_t ClassDescriptorToClassName = 0x8;
     inline constexpr uintptr_t StringLength = 0x10;
-    inline constexpr uintptr_t LocalPlayer = 0x138;
-    inline constexpr uintptr_t ModelInstance = 0x3C8;
+    inline constexpr uintptr_t LocalPlayer = 0x148;
+    inline constexpr uintptr_t ModelInstance = 0x3D0;
     inline constexpr uintptr_t WalkSpeed = 0x1DC;
     inline constexpr uintptr_t WalkSpeedCheck = 0x3C4;
     inline constexpr uintptr_t JumpPower = 0x1B0;
@@ -28,12 +28,12 @@ namespace Offsets {
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
     inline constexpr uintptr_t Gravity = 0x210;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x7A39AD8;
+    inline constexpr uintptr_t FakeDataModel = 0x7BCF6A8;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1D8;
-    inline constexpr uintptr_t ServerIP = 0x658;
-    inline constexpr uintptr_t VisualEnginePointer = 0x8158B80;
+    inline constexpr uintptr_t ServerIP = 0x660;
+    inline constexpr uintptr_t VisualEnginePointer = 0x82EA3F8;
     inline constexpr uintptr_t ViewMatrix = 0x150;
-    inline constexpr uintptr_t CurrentCamera = 0x4B0;
+    inline constexpr uintptr_t CurrentCamera = 0x4A8;
     inline constexpr uintptr_t CameraPos = 0x11C;
     inline constexpr uintptr_t FOV = 0x160;
     inline constexpr uintptr_t CameraSubject = 0xE8;
@@ -53,13 +53,13 @@ namespace Offsets {
     }
 
     namespace Tool {
-        inline constexpr uintptr_t CanBeDropped = 0x4C8;
-        inline constexpr uintptr_t Enabled = 0x4C9;
-        inline constexpr uintptr_t Grip = 0x4BC;
-        inline constexpr uintptr_t ManualActivationOnly = 0x4CA;
-        inline constexpr uintptr_t RequiresHandle = 0x4CB;
-        inline constexpr uintptr_t TextureId = 0x370;
-        inline constexpr uintptr_t Tooltip = 0x478;
+        inline constexpr uintptr_t CanBeDropped = 0x4C0;
+        inline constexpr uintptr_t Enabled = 0x4C1;
+        inline constexpr uintptr_t Grip = 0x4B4;
+        inline constexpr uintptr_t ManualActivationOnly = 0x4C2;
+        inline constexpr uintptr_t RequiresHandle = 0x4C3;
+        inline constexpr uintptr_t TextureId = 0x368;
+        inline constexpr uintptr_t Tooltip = 0x470;
     }
 
     namespace Atmosphere {
@@ -147,15 +147,15 @@ namespace Offsets {
     }
 
     namespace DataModel {
-        inline constexpr uintptr_t CreatorId = 0x190;
-        inline constexpr uintptr_t GameId = 0x198;
-        inline constexpr uintptr_t GameLoaded = 0x670;
+        inline constexpr uintptr_t CreatorId = 0x198;
+        inline constexpr uintptr_t GameId = 0x1A0;
+        inline constexpr uintptr_t GameLoaded = 0x678;
         inline constexpr uintptr_t JobId = 0x138;
-        inline constexpr uintptr_t PlaceId = 0x1A0;
-        inline constexpr uintptr_t PlaceVersion = 0x1BC;
-        inline constexpr uintptr_t PrimitiveCount = 0x4A0;
+        inline constexpr uintptr_t PlaceId = 0x1A8;
+        inline constexpr uintptr_t PlaceVersion = 0x1C4;
+        inline constexpr uintptr_t PrimitiveCount = 0x4A8;
         inline constexpr uintptr_t ScriptContext = 0x440;
-        inline constexpr uintptr_t ServerIP = 0x658;
+        inline constexpr uintptr_t ServerIP = 0x660;
         inline constexpr uintptr_t Workspace = 0x178;
     }
 
@@ -172,7 +172,7 @@ namespace Offsets {
         inline constexpr uintptr_t Material = 0x0;
         inline constexpr uintptr_t Position = 0xEC;
         inline constexpr uintptr_t Flags = 0x1B6;
-        inline constexpr uintptr_t Owner = 0x200;
+        inline constexpr uintptr_t Owner = 0x208;
         inline constexpr uintptr_t Rotation = 0xC8;
         inline constexpr uintptr_t Size = 0x1B8;
         inline constexpr uintptr_t Validate = 0x6;
