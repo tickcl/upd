@@ -2,124 +2,124 @@
 
 namespace Offsets {
     inline constexpr uintptr_t This = 0x8;
-    inline constexpr uintptr_t Name = 0xB0;
-    inline constexpr uintptr_t Parent = 0x70;
-    inline constexpr uintptr_t Children = 0x78;
+    inline constexpr uintptr_t Name = 0x98;
+    inline constexpr uintptr_t Parent = 0x68;
+    inline constexpr uintptr_t Children = 0x70;
     inline constexpr uintptr_t ChildrenEnd = 0x8;
-    inline constexpr uintptr_t DisplayName = 0x150;
+    inline constexpr uintptr_t DisplayName = 0x138;
     inline constexpr uintptr_t ClassDescriptor = 0x18;
     inline constexpr uintptr_t ClassDescriptorToClassName = 0x8;
     inline constexpr uintptr_t StringLength = 0x10;
-    inline constexpr uintptr_t LocalPlayer = 0x148;
-    inline constexpr uintptr_t ModelInstance = 0x3D8;
-    inline constexpr uintptr_t WalkSpeed = 0x1DC;
-    inline constexpr uintptr_t WalkSpeedCheck = 0x3C4;
-    inline constexpr uintptr_t JumpPower = 0x1B0;
-    inline constexpr uintptr_t Team = 0x2D0;
-    inline constexpr uintptr_t Health = 0x194;
-    inline constexpr uintptr_t MaxHealth = 0x1B4;
-    inline constexpr uintptr_t MoveDirection = 0x158;
+    inline constexpr uintptr_t LocalPlayer = 0x130;
+    inline constexpr uintptr_t ModelInstance = 0x298;
+    inline constexpr uintptr_t WalkSpeed = 0x1D0;
+    inline constexpr uintptr_t WalkSpeedCheck = 0x3BC;
+    inline constexpr uintptr_t JumpPower = 0x1A4;
+    inline constexpr uintptr_t Team = 0x2D8;
+    inline constexpr uintptr_t Health = 0x188;
+    inline constexpr uintptr_t MaxHealth = 0x1A8;
+    inline constexpr uintptr_t MoveDirection = 0x140;
     inline constexpr uintptr_t Position = 0xEC;
     inline constexpr uintptr_t Velocity = 0xF8;
     inline constexpr uintptr_t CFrame = 0xC8;
-    inline constexpr uintptr_t Primitive = 0x148;
+    inline constexpr uintptr_t Primitive = 0x128;
     inline constexpr uintptr_t PartSize = 0x1B8;
     inline constexpr uintptr_t RootPartR15 = 0x620;
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
     inline constexpr uintptr_t Gravity = 0x210;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x7BE9278;
+    inline constexpr uintptr_t FakeDataModel = 0x7CB3D78;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1D0;
-    inline constexpr uintptr_t ServerIP = 0x658;
-    inline constexpr uintptr_t VisualEnginePointer = 0x8306B58;
+    inline constexpr uintptr_t ServerIP = 0x650;
+    inline constexpr uintptr_t VisualEnginePointer = 0x83D1F98;
     inline constexpr uintptr_t ViewMatrix = 0x150;
-    inline constexpr uintptr_t CurrentCamera = 0x4C0;
-    inline constexpr uintptr_t CameraPos = 0x11C;
-    inline constexpr uintptr_t FOV = 0x160;
-    inline constexpr uintptr_t CameraSubject = 0xE8;
-    inline constexpr uintptr_t CameraType = 0x158;
-    inline constexpr uintptr_t CameraRotation = 0xF8;
+    inline constexpr uintptr_t CurrentCamera = 0x488;
+    inline constexpr uintptr_t CameraPos = 0xFC;
+    inline constexpr uintptr_t FOV = 0x140;
+    inline constexpr uintptr_t CameraSubject = 0xC8;
+    inline constexpr uintptr_t CameraType = 0x138;
+    inline constexpr uintptr_t CameraRotation = 0xD8;
 
     namespace Humanoid {
-        inline constexpr uintptr_t SeatPart = 0x120;
+        inline constexpr uintptr_t SeatPart = 0x108;
     }
 
     namespace VehicleSeat {
-        inline constexpr uintptr_t MaxSpeed = 0x230;
-        inline constexpr uintptr_t SteerFloat = 0x238;
-        inline constexpr uintptr_t ThrottleFloat = 0x240;
-        inline constexpr uintptr_t Torque = 0x244;
-        inline constexpr uintptr_t TurnSpeed = 0x248;
+        inline constexpr uintptr_t MaxSpeed = 0x1C8;
+        inline constexpr uintptr_t SteerFloat = 0x1D0;
+        inline constexpr uintptr_t ThrottleFloat = 0x1D8;
+        inline constexpr uintptr_t Torque = 0x1DC;
+        inline constexpr uintptr_t TurnSpeed = 0x1E0;
     }
 
     namespace Tool {
-        inline constexpr uintptr_t CanBeDropped = 0x4D8;
-        inline constexpr uintptr_t Enabled = 0x4D9;
-        inline constexpr uintptr_t Grip = 0x4CC;
-        inline constexpr uintptr_t ManualActivationOnly = 0x4DA;
-        inline constexpr uintptr_t RequiresHandle = 0x4DB;
-        inline constexpr uintptr_t TextureId = 0x380;
-        inline constexpr uintptr_t Tooltip = 0x488;
+        inline constexpr uintptr_t CanBeDropped = 0x4B8;
+        inline constexpr uintptr_t Enabled = 0x4B9;
+        inline constexpr uintptr_t Grip = 0x4AC;
+        inline constexpr uintptr_t ManualActivationOnly = 0x4BA;
+        inline constexpr uintptr_t RequiresHandle = 0x4BB;
+        inline constexpr uintptr_t TextureId = 0x360;
+        inline constexpr uintptr_t Tooltip = 0x468;
     }
 
     namespace Atmosphere {
-        inline constexpr uintptr_t Color = 0xD0;
-        inline constexpr uintptr_t Decay = 0xDC;
-        inline constexpr uintptr_t Density = 0xE8;
-        inline constexpr uintptr_t Glare = 0xEC;
-        inline constexpr uintptr_t Haze = 0xF0;
-        inline constexpr uintptr_t Offset = 0xF4;
+        inline constexpr uintptr_t Color = 0xB8;
+        inline constexpr uintptr_t Decay = 0xC4;
+        inline constexpr uintptr_t Density = 0xD0;
+        inline constexpr uintptr_t Glare = 0xD4;
+        inline constexpr uintptr_t Haze = 0xD8;
+        inline constexpr uintptr_t Offset = 0xDC;
     }
 
     namespace Lighting {
-        inline constexpr uintptr_t Ambient = 0xE0;
-        inline constexpr uintptr_t Brightness = 0x128;
-        inline constexpr uintptr_t ClockTime = 0x1C0;
-        inline constexpr uintptr_t ColorShift_Bottom = 0xF8;
-        inline constexpr uintptr_t ColorShift_Top = 0xEC;
-        inline constexpr uintptr_t EnvironmentDiffuseScale = 0x12C;
-        inline constexpr uintptr_t EnvironmentSpecularScale = 0x130;
-        inline constexpr uintptr_t ExposureCompensation = 0x134;
-        inline constexpr uintptr_t FogColor = 0x104;
-        inline constexpr uintptr_t FogEnd = 0x13C;
-        inline constexpr uintptr_t FogStart = 0x140;
-        inline constexpr uintptr_t GeographicLatitude = 0x198;
-        inline constexpr uintptr_t GlobalShadows = 0x150;
-        inline constexpr uintptr_t GradientBottom = 0x19C;
-        inline constexpr uintptr_t GradientTop = 0x158;
-        inline constexpr uintptr_t LightColor = 0x164;
-        inline constexpr uintptr_t LightDirection = 0x170;
-        inline constexpr uintptr_t MoonPosition = 0x18C;
-        inline constexpr uintptr_t OutdoorAmbient = 0x110;
-        inline constexpr uintptr_t Sky = 0x1E0;
-        inline constexpr uintptr_t Source = 0x17C;
-        inline constexpr uintptr_t SunPosition = 0x180;
+        inline constexpr uintptr_t Ambient = 0xC8;
+        inline constexpr uintptr_t Brightness = 0x110;
+        inline constexpr uintptr_t ClockTime = 0x1A8;
+        inline constexpr uintptr_t ColorShift_Bottom = 0xE0;
+        inline constexpr uintptr_t ColorShift_Top = 0xD4;
+        inline constexpr uintptr_t EnvironmentDiffuseScale = 0x114;
+        inline constexpr uintptr_t EnvironmentSpecularScale = 0x118;
+        inline constexpr uintptr_t ExposureCompensation = 0x11C;
+        inline constexpr uintptr_t FogColor = 0xEC;
+        inline constexpr uintptr_t FogEnd = 0x124;
+        inline constexpr uintptr_t FogStart = 0x128;
+        inline constexpr uintptr_t GeographicLatitude = 0x180;
+        inline constexpr uintptr_t GlobalShadows = 0x138;
+        inline constexpr uintptr_t GradientBottom = 0x184;
+        inline constexpr uintptr_t GradientTop = 0x140;
+        inline constexpr uintptr_t LightColor = 0x14C;
+        inline constexpr uintptr_t LightDirection = 0x158;
+        inline constexpr uintptr_t MoonPosition = 0x174;
+        inline constexpr uintptr_t OutdoorAmbient = 0xF8;
+        inline constexpr uintptr_t Sky = 0x1C8;
+        inline constexpr uintptr_t Source = 0x164;
+        inline constexpr uintptr_t SunPosition = 0x168;
     }
 
     namespace Sky {
-        inline constexpr uintptr_t MoonAngularSize = 0x25C;
-        inline constexpr uintptr_t MoonTextureId = 0xE0;
-        inline constexpr uintptr_t SkyboxBk = 0x110;
-        inline constexpr uintptr_t SkyboxDn = 0x140;
-        inline constexpr uintptr_t SkyboxFt = 0x170;
-        inline constexpr uintptr_t SkyboxLf = 0x1A0;
-        inline constexpr uintptr_t SkyboxOrientation = 0x250;
-        inline constexpr uintptr_t SkyboxRt = 0x1D0;
-        inline constexpr uintptr_t SkyboxUp = 0x200;
-        inline constexpr uintptr_t StarCount = 0x260;
-        inline constexpr uintptr_t SunAngularSize = 0x254;
-        inline constexpr uintptr_t SunTextureId = 0x230;
+        inline constexpr uintptr_t MoonAngularSize = 0x244;
+        inline constexpr uintptr_t MoonTextureId = 0xC8;
+        inline constexpr uintptr_t SkyboxBk = 0xF8;
+        inline constexpr uintptr_t SkyboxDn = 0x128;
+        inline constexpr uintptr_t SkyboxFt = 0x158;
+        inline constexpr uintptr_t SkyboxLf = 0x188;
+        inline constexpr uintptr_t SkyboxOrientation = 0x238;
+        inline constexpr uintptr_t SkyboxRt = 0x1B8;
+        inline constexpr uintptr_t SkyboxUp = 0x1E8;
+        inline constexpr uintptr_t StarCount = 0x248;
+        inline constexpr uintptr_t SunAngularSize = 0x23C;
+        inline constexpr uintptr_t SunTextureId = 0x218;
     }
 
     namespace BlurEffect {
-        inline constexpr uintptr_t Enabled = 0xC8;
-        inline constexpr uintptr_t Size = 0xD0;
+        inline constexpr uintptr_t Enabled = 0xB0;
+        inline constexpr uintptr_t Size = 0xB8;
     }
 
     namespace SunRaysEffect {
-        inline constexpr uintptr_t Enabled = 0xC8;
-        inline constexpr uintptr_t Intensity = 0xD0;
-        inline constexpr uintptr_t Spread = 0xD4;
+        inline constexpr uintptr_t Enabled = 0xB0;
+        inline constexpr uintptr_t Intensity = 0xB8;
+        inline constexpr uintptr_t Spread = 0xBC;
     }
 
     namespace MaterialColors {
@@ -147,25 +147,25 @@ namespace Offsets {
     }
 
     namespace DataModel {
-        inline constexpr uintptr_t CreatorId = 0x198;
-        inline constexpr uintptr_t GameId = 0x1A0;
-        inline constexpr uintptr_t GameLoaded = 0x670;
-        inline constexpr uintptr_t JobId = 0x138;
-        inline constexpr uintptr_t PlaceId = 0x1A8;
-        inline constexpr uintptr_t PlaceVersion = 0x1C4;
-        inline constexpr uintptr_t PrimitiveCount = 0x4A0;
+        inline constexpr uintptr_t CreatorId = 0x180;
+        inline constexpr uintptr_t GameId = 0x188;
+        inline constexpr uintptr_t GameLoaded = 0x668;
+        inline constexpr uintptr_t JobId = 0x120;
+        inline constexpr uintptr_t PlaceId = 0x190;
+        inline constexpr uintptr_t PlaceVersion = 0x1AC;
+        inline constexpr uintptr_t PrimitiveCount = 0x498;
         inline constexpr uintptr_t ScriptContext = 0x440;
-        inline constexpr uintptr_t ServerIP = 0x658;
-        inline constexpr uintptr_t Workspace = 0x178;
+        inline constexpr uintptr_t ServerIP = 0x650;
+        inline constexpr uintptr_t Workspace = 0x160;
     }
 
     namespace BasePart {
         inline constexpr uintptr_t AssemblyAngularVelocity = 0x104;
         inline constexpr uintptr_t AssemblyLinearVelocity = 0xF8;
-        inline constexpr uintptr_t Color3 = 0x194;
-        inline constexpr uintptr_t Primitive = 0x148;
-        inline constexpr uintptr_t Shape = 0x1B1;
-        inline constexpr uintptr_t Transparency = 0xF0;
+        inline constexpr uintptr_t Color3 = 0x148;
+        inline constexpr uintptr_t Primitive = 0x128;
+        inline constexpr uintptr_t Shape = 0x159;
+        inline constexpr uintptr_t Transparency = 0xD0;
     }
 
     namespace Primitive {
