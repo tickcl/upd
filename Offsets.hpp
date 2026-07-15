@@ -26,12 +26,12 @@ namespace Offsets {
     inline constexpr uintptr_t PartSize = 0x1B8;
     inline constexpr uintptr_t RootPartR15 = 0x620;
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
-    inline constexpr uintptr_t Gravity = 0x210;
+    inline constexpr uintptr_t Gravity = 0x1A4;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x851F568;
+    inline constexpr uintptr_t FakeDataModel = 0x7D28508;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1D0;
     inline constexpr uintptr_t ServerIP = 0x560;
-    inline constexpr uintptr_t VisualEnginePointer = 0x824B728;
+    inline constexpr uintptr_t VisualEnginePointer = 0x8447C68;
     inline constexpr uintptr_t ViewMatrix = 0x150;
     inline constexpr uintptr_t CurrentCamera = 0x488;
     inline constexpr uintptr_t CameraPos = 0xFC;
@@ -56,7 +56,7 @@ namespace Offsets {
         inline constexpr uintptr_t CanBeDropped = 0x4B8;
         inline constexpr uintptr_t Enabled = 0x4B9;
         inline constexpr uintptr_t Grip = 0x4AC;
-        inline constexpr uintptr_t ManualActivationOnly = 0x1D5;
+        inline constexpr uintptr_t ManualActivationOnly = 0x4BA;
         inline constexpr uintptr_t RequiresHandle = 0x4BB;
         inline constexpr uintptr_t TextureId = 0x360;
         inline constexpr uintptr_t Tooltip = 0x468;
