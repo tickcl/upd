@@ -16,7 +16,7 @@ namespace Offsets {
     inline constexpr uintptr_t WalkSpeedCheck = 0x3BC;
     inline constexpr uintptr_t JumpPower = 0x1A4;
     inline constexpr uintptr_t Team = 0x2D8;
-    inline constexpr uintptr_t Health = 0x188;
+    inline constexpr uintptr_t Health = 0x190;
     inline constexpr uintptr_t MaxHealth = 0x1A8;
     inline constexpr uintptr_t MoveDirection = 0x140;
     inline constexpr uintptr_t Position = 0xEC;
@@ -28,12 +28,12 @@ namespace Offsets {
     inline constexpr uintptr_t RootPartR6 = 0x4C0;
     inline constexpr uintptr_t Gravity = 0x210;
     inline constexpr uintptr_t GravityInfo = 0x3C8;
-    inline constexpr uintptr_t FakeDataModel = 0x7DCCD88;
+    inline constexpr uintptr_t FakeDataModel = 0x7E26978;
     inline constexpr uintptr_t FakeDataModelToDataModel = 0x1D0;
     inline constexpr uintptr_t ServerIP = 0x560;
-    inline constexpr uintptr_t VisualEnginePointer = 0x84F8808;
-    inline constexpr uintptr_t ViewMatrix = 0x150;
-    inline constexpr uintptr_t CurrentCamera = 0x488;
+    inline constexpr uintptr_t VisualEnginePointer = 0x8818F60;
+    inline constexpr uintptr_t ViewMatrix = 0x180;
+    inline constexpr uintptr_t CurrentCamera = 0x498;
     inline constexpr uintptr_t CameraPos = 0xFC;
     inline constexpr uintptr_t FOV = 0x140;
     inline constexpr uintptr_t CameraSubject = 0xC8;
@@ -54,7 +54,7 @@ namespace Offsets {
 
     namespace Tool {
         inline constexpr uintptr_t CanBeDropped = 0x4B8;
-        inline constexpr uintptr_t Enabled = 0x4B9;
+        inline constexpr uintptr_t Enabled = 0x165;
         inline constexpr uintptr_t Grip = 0x4AC;
         inline constexpr uintptr_t ManualActivationOnly = 0x4BA;
         inline constexpr uintptr_t RequiresHandle = 0x4BB;
@@ -72,28 +72,28 @@ namespace Offsets {
     }
 
     namespace Lighting {
-        inline constexpr uintptr_t Ambient = 0xC8;
-        inline constexpr uintptr_t Brightness = 0x110;
-        inline constexpr uintptr_t ClockTime = 0x1A8;
-        inline constexpr uintptr_t ColorShift_Bottom = 0xE0;
-        inline constexpr uintptr_t ColorShift_Top = 0xD4;
-        inline constexpr uintptr_t EnvironmentDiffuseScale = 0x114;
-        inline constexpr uintptr_t EnvironmentSpecularScale = 0x118;
-        inline constexpr uintptr_t ExposureCompensation = 0x11C;
-        inline constexpr uintptr_t FogColor = 0xEC;
-        inline constexpr uintptr_t FogEnd = 0x124;
-        inline constexpr uintptr_t FogStart = 0x128;
-        inline constexpr uintptr_t GeographicLatitude = 0x180;
-        inline constexpr uintptr_t GlobalShadows = 0x138;
-        inline constexpr uintptr_t GradientBottom = 0x184;
-        inline constexpr uintptr_t GradientTop = 0x140;
-        inline constexpr uintptr_t LightColor = 0x14C;
-        inline constexpr uintptr_t LightDirection = 0x158;
-        inline constexpr uintptr_t MoonPosition = 0x174;
-        inline constexpr uintptr_t OutdoorAmbient = 0xF8;
-        inline constexpr uintptr_t Sky = 0x1C8;
-        inline constexpr uintptr_t Source = 0x164;
-        inline constexpr uintptr_t SunPosition = 0x168;
+        inline constexpr uintptr_t Ambient = 0xD0;
+        inline constexpr uintptr_t Brightness = 0x118;
+        inline constexpr uintptr_t ClockTime = 0xC8;
+        inline constexpr uintptr_t ColorShift_Bottom = 0xE8;
+        inline constexpr uintptr_t ColorShift_Top = 0xDC;
+        inline constexpr uintptr_t EnvironmentDiffuseScale = 0x11C;
+        inline constexpr uintptr_t EnvironmentSpecularScale = 0x120;
+        inline constexpr uintptr_t ExposureCompensation = 0x124;
+        inline constexpr uintptr_t FogColor = 0xF4;
+        inline constexpr uintptr_t FogEnd = 0x12C;
+        inline constexpr uintptr_t FogStart = 0x130;
+        inline constexpr uintptr_t GeographicLatitude = 0x134;
+        inline constexpr uintptr_t GlobalShadows = 0x144;
+        inline constexpr uintptr_t GradientBottom = 0x188;
+        inline constexpr uintptr_t GradientTop = 0x148;
+        inline constexpr uintptr_t LightColor = 0x154;
+        inline constexpr uintptr_t LightDirection = 0x160;
+        inline constexpr uintptr_t MoonPosition = 0x17C;
+        inline constexpr uintptr_t OutdoorAmbient = 0x100;
+        inline constexpr uintptr_t Sky = 0x1C0;
+        inline constexpr uintptr_t Source = 0x16C;
+        inline constexpr uintptr_t SunPosition = 0x170;
     }
 
     namespace Sky {
